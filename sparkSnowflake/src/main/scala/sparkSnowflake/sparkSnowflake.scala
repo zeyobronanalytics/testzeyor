@@ -33,6 +33,7 @@ object sparkSnowflake {
 					df.write.format("orc").save("file:///home/cloudera/hivew22rited")
 
 
+					df.write.format("json").save("file:///home/cloudera/hivew22json")
 			
 
 
